@@ -1,1 +1,1 @@
-Programas basicos para aprender Java Sript
+Programas basicos para aprender Java Script
