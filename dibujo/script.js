@@ -1,19 +1,15 @@
 var d = document.getElementById("dibujito");
 var lienzo = d.getContext("2d");
-var max = 300;
-var min = 10;
-var count = 0;
-while(count < 30){
-	draw(min, max)
-	min += 10;
-	count += 1;
-}
 
-function draw(n1, n2){
+
+draw("red", 10, 300, 220, 10);
+draw("pink", 300, 10, 10, 220);
+
+function draw(color, x1, x2, y1, y2){
 	lienzo.beginPath();
-	lienzo.strokeStyle = "red";
-	lienzo.moveTo(0, n1);
-	lienzo.lineTo(n2, n2);
+	lienzo.strokeStyle = color;
+	lienzo.moveTo(x1, x2);
+	lienzo.lineTo(y1, y2);
 	lienzo.stroke();
 	lienzo.closePath();
 }
