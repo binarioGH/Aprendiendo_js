@@ -1,0 +1,17 @@
+div.mydiv{ 
+	margin-left:25%;
+	width:50%;
+}
+div.mydiv h1{
+	font-family:"Arial Black";
+	font-size: 20px;
+	display:inline-block;
+	margin-left:10%;
+}
+.mydiv form{
+	display:inline-block;
+	margin-left: 5%;
+}
+.mydiv button{
+	display:inline-block;
+}
