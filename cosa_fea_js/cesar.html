@@ -1,34 +1,34 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Cifrado cesar</title>
-	<link rel="stylesheet" type="text/css" href="cesar.css">
-</head>
-<body>
-	<header>
-		<h1 class="title">Cifrado cesar</h1>
-	</header>
-	<section>
-		<article id="inNOut">
-			<div>
-				<h3 class="label">Llave: </h3>
-				<form class="enterStuff">
-				   <input id="key" type="text"></input> 
-				</form>
-				
-			</div>
-			<div>
-				<h3 class="label">Texto:</h3>
-				<form class="enterStuff">
-					<input id="text" type="text"></input>
-					<input id="sendText" type="button" value="Encrypt!"></input>
-				</form>
-				<p id="encrypted"></p>
-			</div>
-
-
-		</article>
-	</section>
-	<script src="cesar.js"></script>
-</body>
-</html>
+  <head>
+  	<meta charset="UTF-8"/>
+  	<title>Caesar cipher</title>
+  	<link rel="stylesheet" type="text/css" href="cesar.css">
+  </head>
+  <body>
+    <header>
+      <h1 class='title'>Caesar cipher</h1>
+    </header>
+    <section>
+      <article class='inputData'>
+        <div>
+          <h3 class='label'>Key: </h3>
+          <form class='frm'>
+            <input id='key'/>
+          </form>
+        </div>
+        <div>
+          <h3 class='label'>Text:</h3>
+          <form class='frm'>
+            <input id='text'/>
+            <input id="snd" type='button' value='Encrypt!'/>
+          </form>
+        </div>
+        <text>
+          <p id='cipherText'>Your text</p>
+        </text>
+      </article>
+    </section>
+    <script type="text/javascript" src="cesar.js"></script>
+  </body>
+</html>  
+  

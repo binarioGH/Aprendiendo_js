@@ -1,31 +1,44 @@
 header{
-	width:100%;
-	border-bottom:2px solid black;
+  width:100%;
 }
-header h1.title{
-	margin-left:25%;
-	width:50%;
-	margin-bottom:3%;
-	margin-top:1%;
-	font-style:"Cursive";
-	font-size:40px;
-	text-align:center;
-}
-#inNOut{
-	width:70%;
-	margin-left:15%;
-	border-left:2px solid black;
-	border-right:2px solid black;
 
+h1.title{
+  margin-top:2%;
+  margin-left:25%;
+  width:50%;
+  text-align:center;
+  border-bottom:2px solid black;
+  padding-bottom:1%;
 }
-#inNOut div{
-	width:50%;
-	margin-left:25%;
+section{
+  width:100%;
+}
+article.inputData{
+  margin-left:15%;
+  width:75%;
+  margin-top:15%;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  
+}
+article.inputData div{
+  margin-left:10%;
+  width:80%;
 }
 .label{
-	font-size:15px;
-	display:inline-block;
+  display:inline-block;
+  font-family:'Arial Black';
+  font-size:20px;
 }
-.enterStuff{
-	display:inline-block;
+.frm{
+  display:inline-block;
+  width:40%;
+}
+form.frm input{
+  margin-left:2%;
+}
+
+#cipherText{
+  font-family:'Arial'; 
+  margin-left:25%;
 }
