@@ -1,0 +1,18 @@
+html{
+	width:500px;
+}
+
+h3{
+	color:#FF1566;
+	text-align:center;
+	background-color:white;
+	border-radius:5px;
+	border:1px solid #FF1566;
+	padding:5px 5px;
+}
+.together{
+	display:inline-block;
+	border-radius:4px;
+	font-family:"Arial";
+	margin-left:15%;
+}
