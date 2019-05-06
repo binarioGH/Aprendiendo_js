@@ -21,3 +21,16 @@ snd.addEventListener("click", function(){
 	}
 	display.innerHTML = "Hola " + text;
 });
+getName.addEventListener("change", function(){
+	text = justText(getName.value);
+	if(text == "" || text == " "){
+		text = "mundo";
+	}
+	display.innerHTML = "Hola " + text;
+});
+getName.addEventListener("mousedown", function(){
+	getName.style.border.color = "#FF1566";
+});
+getName.addEventListener("mouseup", function(){
+	getName.style.border.color = "#00B30F";
+});

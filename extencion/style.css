@@ -1,13 +1,14 @@
 html{
-	width:500px;
+	width:400px;
+	background-color:#363837;
 }
 
 h3{
 	color:#FF1566;
 	text-align:center;
-	background-color:white;
+	background-color:#363837;
 	border-radius:5px;
-	border:1px solid #FF1566;
+	border:1px solid #00B30F;
 	padding:5px 5px;
 }
 .together{
@@ -15,4 +16,22 @@ h3{
 	border-radius:4px;
 	font-family:"Arial";
 	margin-left:15%;
+}
+#nombre{
+	border:1px solid #00B30F;
+	padding:4px 3px 4px 3px;
+	background-color:#363837;
+}
+#nombre::placeholder{
+	color:#FF1566;
+}
+#send{
+	border:2px solid #00B30F;
+	background-color:#363837;
+	padding:3px 4px 3px 4px;
+	color:#FF1566;
+}
+#send:hover{
+	border-color:#FF1566;
+	color:#00B30F;
 }
